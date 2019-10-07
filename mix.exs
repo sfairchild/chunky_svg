@@ -6,8 +6,8 @@ defmodule ChunkySVG.Mixfile do
       app: :chunky_svg,
       version: "0.0.4",
       elixir: "~> 1.0",
-      deps: deps,
-      package: package,
+      deps: deps(),
+      package: package(),
       description: """
         A library for drawing things with SVG
       """,
